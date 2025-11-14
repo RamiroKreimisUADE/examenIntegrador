@@ -1,0 +1,68 @@
+/* FORMULARIO DE CONTACTO */
+.contact-form {
+    margin-top: 2rem;
+}
+
+.contact-form h3 {
+    color: #667eea;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    color: #667eea;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.8rem;
+    border: 2px solid #e0c3fc;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-family: Arial, sans-serif;
+    transition: border-color 0.3s;
+}
+
+.form-group textarea {
+    min-height: 120px;
+}
+
+.submit-button {
+    background: #667eea;
+    color: white;
+    padding: 0.8rem 2.5rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .submit-button {
+        width: 100%;
+    }
+}
