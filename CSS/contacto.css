@@ -1,4 +1,8 @@
 /* FORMULARIO DE CONTACTO */
+h3 {
+    color: #667eea;
+}
+
 .contact-form {
     margin-top: 2rem;
 }

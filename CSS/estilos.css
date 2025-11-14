@@ -21,8 +21,7 @@ body {
 header {
     background: #667eea;
     color: white;
-    padding: 2rem 1.5rem;
-    position: relative;
+    padding: 2rem;
 }
 
 .header-content h1 {
@@ -32,7 +31,6 @@ header {
 
 .subtitle {
     font-size: 0.95rem;
-    opacity: 0.9;
 }
 
 .theme-toggle {
@@ -106,9 +104,6 @@ main {
     transition: transform 0.2s;
 }
 
-.nav-button:hover {
-    transform: translateY(-2px);
-}
 
 /* STUDENT INFO */
 .student-info {
